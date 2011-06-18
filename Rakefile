@@ -15,7 +15,7 @@ e = Echoe.new('ruby-serialport', version) do |s|
    s.rdoc_pattern = [ "README", "CHANGELOG", "ext/serialport.c", "lib/serialport.rb" ]
    s.ignore_pattern = Dir.glob("{tmp}/**/*")
 
-   s.author = ["Guillaume Pierronnet", "Alan Stern", "Daniel E. Shipton", "Jonas Bähr"]
+   s.author = ["Guillaume Pierronnet", "Alan Stern", "Daniel E. Shipton", "Jonas Bähr", "Bart ten Brinke"]
    s.email = "daniel.shipton.oss@gmail.com"
    s.project = 'ruby-serialport'
    s.url = "http://ruby-serialport.rubyforge.org"

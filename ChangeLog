@@ -1,4 +1,7 @@
-=== 0.7.0 => ???
+=== 0.7.2  => 18/06/2011
+ * Addded O_NONBLOCK to prevent dropped bytes
+
+=== 0.7.1 => 12/24/2008
  * Replaced handwritten Rake tasks and Gemspec with Echoe
  * Fully RDoc'ified
  * Support for Mac OS X

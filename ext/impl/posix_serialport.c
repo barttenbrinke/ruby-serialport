@@ -97,7 +97,7 @@ static VALUE sp_create_impl(class, _port)
          break;
    }
 
-   fd = open(port, O_RDWR | O_NOCTTY | O_NDELAY);
+   fd = open(port, O_RDWR | O_NOCTTY | O_NDELAY | O_NONBLOCK);
    if (fd == -1)
    {
       rb_sys_fail(port);
